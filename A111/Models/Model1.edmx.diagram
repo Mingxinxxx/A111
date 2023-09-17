@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e8cb2b9b3d04fc9a68d4be4202cafd5" Name="Diagram1">
+        <EntityTypeShape EntityType="BookingModel.AspNetUsers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingModel.Booking" Width="1.5" PointX="3.5" PointY="1.875" />
+        <EntityTypeShape EntityType="BookingModel.Diagnose" Width="1.5" PointX="6.5" PointY="2" />
+        <AssociationConnector Association="BookingModel.AspNetUsersBooking" />
+        <AssociationConnector Association="BookingModel.DiagnoseBooking" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
